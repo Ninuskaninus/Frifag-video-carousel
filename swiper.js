@@ -3,7 +3,7 @@
   loop: false,
   slidesPerView: 1,
   slidesPerGroup: 1,
-    spaceBetween: 30,
+    spaceBetween: 20,
     breakpoints: {
       320: {
         slidesPerView: 1,
@@ -14,8 +14,8 @@
         slidesPerGroup: 1,
       },
       1024: {
-        slidesPerView: 3,
-        slidesPerGroup: 3,
+        slidesPerView: 4,
+        slidesPerGroup: 4,
       }
     },
 

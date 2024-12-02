@@ -41,7 +41,8 @@ main{
 
 .video-slide{
   width: 100%;
-  height: 100%;
+  max-width: 220px;
+  height: 400px;
   position: relative;
   border-radius: 20px;
 }
@@ -99,6 +100,7 @@ main{
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  margin-bottom: 15px;
   cursor: pointer;
   background-color: #F56C00;
   display: flex;
@@ -106,15 +108,19 @@ main{
   align-items: center;
 }
 
-.video-play h1{
+.video-play span{
   background-color: #00CCCC;
-  padding: 5px;
   color: #FFF;
   margin: 10px 0;
   font-size: 24px;
-  display: inline-block;
-  width: fit-content;
-  max-width: max-content;
+  display: inline;
+  padding: 5px;
+  line-height: 2;
+  box-decoration-break: clone;
+}
+
+.video-play span::before{
+  padding: 5px;
 }
 
 .video-some-strip{
